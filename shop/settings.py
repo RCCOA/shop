@@ -93,6 +93,7 @@ DATABASES = {
 }
 
 
+
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
@@ -147,7 +148,6 @@ cloudinary.config(
     api_key = config('API_KEY'),
     api_secret = config('API_SECRET')
 )
-
 
 PAYPAL_TEST = True
 
